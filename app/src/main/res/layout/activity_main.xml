@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8bc34c"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/ivhappy"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:layout_marginTop="20dp"
+        android:scrollbarSize="10dp"
+        app:srcCompat="@drawable/happy" />
+
+    <ImageView
+        android:id="@+id/ivcall"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:scrollbarSize="10dp"
+        app:srcCompat="@drawable/call" />
+
+    <ImageView
+        android:id="@+id/ivweb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:scrollbarSize="10dp"
+        app:srcCompat="@drawable/web" />
+
+    <ImageView
+        android:id="@+id/ivmap"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="clip_horizontal|center_horizontal"
+        android:layout_marginTop="30dp"
+        android:clickable="true"
+        android:scrollbarSize="10dp"
+        app:srcCompat="@drawable/map" />
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="50dp"
+        android:background="@color/colorAccent"
+        android:text="Create  New Contact"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</LinearLayout>

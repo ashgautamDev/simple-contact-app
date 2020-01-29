@@ -1,0 +1,65 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 380 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 2734597 0 0
+ciMethod java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V 4097 1 512 0 -1
+ciMethod java/lang/Throwable addSuppressed (Ljava/lang/Throwable;)V 0 0 1 0 -1
+ciMethod java/nio/Buffer clear ()Ljava/nio/Buffer; 705 1 12522 0 0
+ciMethod java/nio/Buffer nextPutIndex (I)I 3081 1 5541 0 96
+ciMethod java/lang/Long numberOfTrailingZeros (J)I 2089 1 2037 0 -1
+ciMethod java/util/Collection iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/List sort (Ljava/util/Comparator;)V 553 3017 69 0 -1
+ciMethod java/util/AbstractCollection <init> ()V 641 1 374488 0 32
+ciMethod java/util/AbstractCollection size ()I 0 0 1 0 -1
+ciMethod java/util/AbstractCollection isEmpty ()Z 3953 1 29347 0 64
+ciMethod java/util/ArrayList isEmpty ()Z 2273 1 5892 0 64
+ciMethod java/util/ArrayList iterator ()Ljava/util/Iterator; 2049 1 8314 0 160
+ciMethod java/util/ArrayList sort (Ljava/util/Comparator;)V 1969 1 5398 0 320
+ciMethod java/util/ArrayList access$000 (Ljava/util/ArrayList;)I 1049 1 131 0 0
+ciMethod java/util/Collections sort (Ljava/util/List;Ljava/util/Comparator;)V 2049 1 5407 0 0
+ciMethod java/lang/Math min (II)I 3409 1 546286 0 -1
+ciMethod java/util/Objects requireNonNull (Ljava/lang/Object;)Ljava/lang/Object; 3113 1 115419 0 -1
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Arrays rangeCheck (III)V 2049 1 5378 0 128
+ciMethod java/util/Arrays sort ([Ljava/lang/Object;II)V 2065 1 281 0 -1
+ciMethod java/util/Arrays sort ([Ljava/lang/Object;IILjava/util/Comparator;)V 209 1 6177 0 256
+ciMethod java/util/Arrays legacyMergeSort ([Ljava/lang/Object;IILjava/util/Comparator;)V 0 0 1 0 -1
+ciMethod java/util/Arrays fill ([BB)V 57 3585 776 0 -1
+ciMethod java/nio/ByteBuffer array ()[B 1393 1 15373 0 0
+ciMethod java/nio/ByteBuffer _put (IB)V 0 0 1 0 -1
+ciMethod java/nio/ByteBuffer putInt (I)Ljava/nio/ByteBuffer; 0 0 1 0 -1
+ciMethod java/nio/HeapByteBuffer ix (I)I 481 1 21082 0 0
+ciMethod java/nio/HeapByteBuffer _put (IB)V 2177 1 1324 0 0
+ciMethod java/nio/HeapByteBuffer putInt (I)Ljava/nio/ByteBuffer; 3121 1 5540 0 320
+ciMethod java/nio/Bits int3 (I)B 3185 1 5540 0 0
+ciMethod java/nio/Bits int2 (I)B 3185 1 5540 0 0
+ciMethod java/nio/Bits int1 (I)B 3185 1 5541 0 0
+ciMethod java/nio/Bits int0 (I)B 3185 1 5539 0 0
+ciMethod java/nio/Bits putIntL (Ljava/nio/ByteBuffer;II)V 3185 1 5539 0 0
+ciMethod java/nio/Bits putIntB (Ljava/nio/ByteBuffer;II)V 0 0 1 0 -1
+ciMethod java/nio/Bits putInt (Ljava/nio/ByteBuffer;IIZ)V 3185 1 5539 0 0
+ciMethod java/lang/Enum ordinal ()I 1025 1 128 0 0
+ciMethodData java/lang/Object <init> ()V 2 2734644 orig 264 8 206 86 107 0 0 0 0 128 4 196 23 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 161 193 77 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/Deque removeLast ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Deque peekLast ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/Deque isEmpty ()Z 0 0 1 0 -1
+ciMethod java/util/ArrayDeque <init> ()V 2049 1 5147 0 0
+ciMethod java/util/ArrayDeque removeLast ()Ljava/lang/Object; 3073 1 6536 0 160
+ciMethod java/util/ArrayDeque pollLast ()Ljava/lang/Object; 3073 1 6536 0 160
+ciMethod java/util/ArrayDeque push (Ljava/lang/Object;)V 2049 1 5645 0 -1
+ciMethod java/util/ArrayDeque size ()I 2049 1 9685 0 -1
+ciMethod java/util/ArrayList$Itr <init> (Ljava/util/ArrayList;)V 2049 1 8637 0 96
+ciMethod java/util/ArrayList$Itr hasNext ()Z 3113 1 6502 0 96
+ciMethod java/util/ArrayList$Itr next ()Ljava/lang/Object; 3161 1 9752 0 224
+ciMethod java/util/ArrayList$Itr checkForComodification ()V 3169 1 10289 0 0
+ciMethodData java/util/AbstractCollection <init> ()V 2 374491 orig 264 8 206 86 107 0 0 0 0 136 137 208 23 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 80 0 0 0 89 180 45 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x5b690 oops 0
+ciMethod java/util/LinkedList unlinkLast (Ljava/util/LinkedList$Node;)Ljava/lang/Object; 3073 1 5507 0 0
+ciMethod java/util/LinkedList removeLast ()Ljava/lang/Object; 3073 1 5507 0 128
+ciMethod java/util/LinkedList size ()I 1025 1 128 0 0
+ciMethodData java/util/ArrayList$Itr hasNext ()Z 2 6502 orig 264 8 206 86 107 0 0 0 0 192 239 237 23 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 133 1 0 0 9 191 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 72 0 0 0 255 255 255 255 2 0 8 0 0 0 0 0 data 9 0x80002 0x17e1 0xb0007 0x84f 0x38 0xf92 0xf0003 0xf92 0x18 oops 0
+ciMethodData java/util/ArrayList$Itr next ()Ljava/lang/Object; 2 9752 orig 264 8 206 86 107 0 0 0 0 160 240 237 23 0 0 0 0 232 1 0 0 96 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 25 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 139 1 0 0 105 36 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 160 0 0 0 255 255 255 255 5 0 1 0 0 0 0 0 data 20 0x10005 0xe9 0x1f3ca6d0 0x23a4 0x0 0x0 0xe0002 0x248d 0x110007 0x248d 0x30 0x0 0x180002 0x0 0x270007 0x248d 0x30 0x0 0x2e0002 0x0 oops 1
